@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cart">
+  <h1>Stylish Shopping Cart</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody id="cartBody"></tbody>
+  </table>
+
+  <button class="checkout-button" onclick="generateInvoice()">Checkout</button>
+</div>
+
+<script src="srcipt.js"></script>
+
+</body>
+</html>
